@@ -1,0 +1,19 @@
+{
+    "name": "pmdevelopment/translate-bundle",
+    "description": "Google Translate API Bundle for Symfony2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Joder",
+            "email": "sj@pmdevelopment.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "google/apiclient": "^2.0.3"
+    },
+    "autoload": {
+        "psr-0": { "PM\\Bundle\\TranslateBundle": "" }
+    },
+    "target-dir": "PM/Bundle/TranslateBundle"
+}
