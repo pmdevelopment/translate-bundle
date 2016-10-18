@@ -1,0 +1,7 @@
+services:
+  pm_translate.services.translation_service:
+    class: PM\Bundle\TranslateBundle\Services\TranslationService
+    arguments:
+      - '%pm_translate.language.from%'
+      - '%pm_translate.language.to%'
+      - '%pm_translate.api_key%'
